@@ -1,0 +1,13 @@
+#login{
+    margin: auto;
+    width: 10%;
+}
+
+#login p, input{
+    float: none;
+
+}
+
+p{
+    margin:0;
+}
