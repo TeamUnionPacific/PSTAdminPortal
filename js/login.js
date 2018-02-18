@@ -8,8 +8,8 @@
 function Submit(user, pw) {
 
 
-    if(username == "" || pw == ""){
-        return false
+    if(user == "" || pw == ""){
+        return false;
     }
 
     /*
@@ -30,7 +30,7 @@ window.onload = function (ev) {
         if(username == ""){
 
         }
-        if(Submit()){
+        if(Submit(username, pw)){
             window.location.href = 'landing.html'
         }else{
 

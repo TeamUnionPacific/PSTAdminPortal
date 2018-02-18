@@ -3,8 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>PST Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="js/landing.js"></script>
 </head>
 <body>
-
+    <div id="landing-header">
+        <div id="header-logo">
+            <p id="logo"><img src="images/logo.png"></p>
+        </div>
+        <div id="header-user">
+            <p id="username">Default User Name</p>
+            <p id="role">Default Role</p>
+        </div>
+    </div>
+    <div id="reporting-content">
+        <div id="linegraph-report"></div>
+        <div id="piechart-report"></div>
+        <div id="generate-report"></div>
+        <div id="admin-report">
+            <div id="admin-report-header">
+                <p>Administration Controls</p>
+            </div>
+            <div id="admin-report-content">
+                <button id="add-permissions">Add Permissions</button>
+                <button id="add-user">Add User</button>
+                <button id="view-user">View Users</button>
+                <button id="view-role">View Roles</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
