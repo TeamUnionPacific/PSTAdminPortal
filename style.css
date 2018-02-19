@@ -29,10 +29,10 @@ End Login Page CSS
 Landing Page CSS
  */
 #landing-header{
-    height: 200px;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    height: 50px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 #header-logo{
@@ -44,7 +44,7 @@ Landing Page CSS
 
 #header-user{
     width: 50%;
-    margin: 50px 0 0 0;
+    margin: 5px 0 0 0;
     display: inline;
     float:right;
 }
@@ -68,36 +68,59 @@ Landing Page CSS
 
 #username{
     text-align: right;
-    font-size: 2em;
+    font-size: 1.15em;
 }
 
 #role{
     text-align: right;
-    margin-top: 20px;
-    font-size: 2em;
+    margin-top: 5px;
+    font-size: 1.15em;
 }
 
 #reporting-content{
-    margin-left: 10%;
-    width: 80%;
-    margin-right: 10%;
+    margin-left: 15%;
+    width: 70%;
+    margin-right: 15%;
     display: flex;
     flex-wrap: wrap;
+}
+
+#linegraph-report, #piechart-report, #admin-report, #generate-report{
+    width: 47.5%;
+    margin: 2.5% 0 2.5% 0;
+    border-style:solid;
+    background: white;
+}
+
+#reporting-content #linegraph-report {
+    margin-right: 3.8%;
+}
+
+#piechart-report-content{
+    overflow: hidden;
+}
+
+#reporting-content #generate-report {
+    margin-right: 3.8%;
+}
+#admin-report {
+
+}
+
+.report-header{
+    background-color: lightgray;
+    font-weight:bold;
+    font-size: .9em;
+}
+
+.report-header p{
+    padding: .5% 0 .5% 2%;
+}
+
+#admin-report-content{
+    background-color: white;
+}
+
+#admin-report-content p{
     text-align: center;
-}
-
-#reporting-content div{
-    width: 45%;
-    padding-bottom:35%;
-    margin: 2.5% 2.5% 2.5% 2.5%;
-
-}
-
-#piechart-report { background: #DDD; }
-#linegraph-report { background: #AAA; }
-#generate-report { background: #777; }
-#admin-report { background: #444; }
-
-#admin-report-header{
-    margin: 0;
 }
